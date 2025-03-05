@@ -1,19 +1,190 @@
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0; 
-    align-items: center;
-    background-color: antiquewhite;
 
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
 }
 
 h1 {
-    color: #333;
-    text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
 }
 
 p {
-    text-align: center;
-    font-size: 1.2em;
+  font-size: 14px;
+  color: #666;
 }
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Section Styles */
+
+section {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+/* About Section */
+
+#about {
+  background-color: #f7f7f7;
+}
+
+#about h2 {
+  color: #333;
+}
+
+#about p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* My Works Section */
+
+#my-works {
+  background-color: #fff;
+}
+
+#my-works h2 {
+  color: #333;
+}
+
+#my-works ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#my-works li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#my-works li:last-child {
+  border-bottom: none;
+}
+
+/* My Stores Section */
+
+#my-stores {
+  background-color: #fff;
+}
+
+#my-stores h2 {
+  color: #333;
+}
+
+#my-stores ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#my-stores li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#my-stores li:last-child {
+  border-bottom: none;
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: #fff;
+}
+
+#contact h2 {
+  color: #333;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Social Media Section */
+
+#social-media {
+  background-color: #fff;
+}
+
+#social-media h2 {
+  color: #333;
+}
+
+#social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#social-media li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#social-media li:last-child {
+  border-bottom: none;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+}
+
